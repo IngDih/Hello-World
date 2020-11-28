@@ -1,1 +1,34 @@
-Test 123
+package whoareyou;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+/**
+ *
+ * @author Ingrid
+ */
+public class WhoAreYou {
+
+    public static void main(String[] args) {
+        
+    
+        BufferedReader myKeyboard = new BufferedReader (new InputStreamReader(System.in));
+
+        String input;
+
+        try { 
+
+            System.out.println("Hey there, what is your name?");
+
+            input = myKeyboard.readLine();
+            System.out.println("Oh, that is a very nice name, " + input);
+
+
+        }
+    
+    
+    
+    catch (Exception e) {
+
+    }
+}  
