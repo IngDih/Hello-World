@@ -1,2 +1,2 @@
 # Hello-World
- My first repository <3
+ My first repository, made to test some of the functionalities of Github.
